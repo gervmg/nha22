@@ -1,0 +1,84 @@
+.ba-footer {
+  background-color: lightgray;
+  min-height: 200px;
+}
+
+.ba-header{
+  background-color: LightSlateGray;
+}
+
+.card-1{
+  width: 60%;
+}
+
+.card-2{
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.card-text{
+  font-size: 85%;
+}
+
+/* padding op 0 zetten zodat header en footer in de container 100% worden getoond. Staat nl. standaard aan in container */
+.div-p-0 {
+     padding:0;
+   }
+
+/* padding aanpassen voor overige onderdelen binnen de container  */
+.div-p-1 {
+      padding-top: .5rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+.body-bg {
+  background-color: #f2f2f2;
+}
+
+/* css voor formulier */
+
+
+.contact{
+  padding:2%;
+  height: auto;
+}
+
+.form-group {
+margin-bottom: 0.5rem;
+}
+
+.col-md-3{
+  background: #ff9b00;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.col-md-9{
+  background: #fff;
+  padding: 2%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+
+.contact-form input {
+  background: #fff5e6;
+}
+
+.contact-form textarea{
+  background: #fff5e6;
+}
+
+.contact-form button{
+	background: #25274d;
+	color: #fff;
+	font-weight: 600;
+	width: 25%;
+}
